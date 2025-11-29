@@ -1,0 +1,72 @@
+#como_ajudar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 240px;
+  background-color: #FFF9CD;
+}
+
+.title-ajudar {
+  font-size: 36px;
+  font-weight: 600;
+  color: #404040;
+}
+
+.description-ajudar {
+  font-size: 20px;
+  font-weight: 400;
+  color: #5D360799;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.cards-ajudar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+}
+
+.card-ajudar {
+  width: 290px;
+  height: 360px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding: 20px;
+  border: #404040 solid 1px;
+  border-radius: 5px;
+}
+
+.icon-ajuda {
+  margin-bottom: 50px;
+}
+
+.title-card-ajudar {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.txt-ajudar {
+  text-align: center;
+  color: #5D360799;
+  margin-bottom: 22px;
+}
+
+.bnt-acao {
+  border: 1px solid #404040;
+  background-color: #b6680868;
+  padding: 8px 18px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 22px;
+  transition: all 0.3s ease-in-out;
+}
+
+.bnt-acao:hover {
+  background-color: #5D360799;
+}

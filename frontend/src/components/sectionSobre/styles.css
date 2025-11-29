@@ -1,0 +1,53 @@
+#sobre {
+    background-color: #FFFBE0;
+    padding: 100px 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-sobre {
+    font-size: 36px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.description-sobre {
+    font-size: 20px;
+    font-weight: 400;
+    color: #5D360799;
+    width: 55%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cards-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 35px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: 381px;
+    height: 260px;
+    border: #404040 1px solid;
+    border-radius: 5px;
+}
+
+.title-card{
+    font-size: 20px;
+    font-weight: 500;
+    color: #404040;
+}
+
+.txt-card {
+    font-size: 16px;
+    color: #5D360799;
+}
