@@ -1,0 +1,88 @@
+# =========================
+# Node.js / Backend Project
+# =========================
+
+# Dependências
+node_modules/
+jspm_packages/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+.env.test
+
+# Banco de dados (SQLite, etc.)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Build / Output
+dist/
+build/
+tmp/
+temp/
+out/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+*.tsbuildinfo
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker
+docker-compose.override.yml
+.docker/
+*.pid
+
+# CI/CD
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+
+# Configurações locais
+*.local
+*.swp
+*.swo
+*.tmp
+
+# Testes e mocks
+__tests__/
+__mocks__/
+
+# Arquivos de lock alternativos (se não quiser versionar)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# Fim do .gitignore
+# =========================
