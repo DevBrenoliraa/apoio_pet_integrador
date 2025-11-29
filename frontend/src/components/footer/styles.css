@@ -1,0 +1,66 @@
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 260PX;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.logo-apoiopet {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-apoiopet img {
+  width: 50px;
+  height: auto;
+}
+
+.footer-description {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #666;
+}

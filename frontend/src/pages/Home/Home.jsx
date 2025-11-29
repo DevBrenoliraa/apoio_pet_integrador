@@ -2,6 +2,11 @@ import './styles.css'
 
 import coracao from '../../assets/svg/coracao.svg'
 import HeaderComponent from '../../components/header/HeaderComponent'
+import SectionAnimais from '../../components/sectionAnimais/SectionAnimais'
+import SectionSobre from '../../components/sectionSobre/SectionSobre'
+import SectionComoJudar from '../../components/sectionComoAjudar/SectionComoJudar'
+import SectionImpact from '../../components/sectionImpacto/SectionImpact'
+import FooterComponent from '../../components/footer/FooterComponent'
 
 const Home = () => {
     return (
@@ -25,14 +30,20 @@ const Home = () => {
                             </a>
                         </div>
                         <div className="btn-saiba-mais">
-                            <a href="#sobre">
+                            <a href="#impacto">
                                 Saiba mais
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
+            <SectionAnimais/>
+            <SectionSobre/>
+            <SectionComoJudar/>
+            <SectionImpact/>
+            <FooterComponent/>
         </main>
+        
     )
 }
 

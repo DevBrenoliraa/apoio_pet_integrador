@@ -1,0 +1,108 @@
+#adotar {
+    background-color: #FFF9CD;
+    padding: 55px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 880px;
+}
+
+.title-adotar {
+    font-size: 36px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.title-adotar span {
+    color: #FAD141;
+}
+
+.description-adotar {
+    font-size: 20px;
+    font-weight: 400;
+    color: #5D360799;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cards-animais-adotar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 101px;
+}
+
+.card-animal-adotar {
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 337px;
+    height: 467px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.img-card-animal {
+    width: 100%;
+    height: 280px;
+    object-fit: fill;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nome-raca-animal {
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.nome-animal {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.raca-animal {
+    color: #5D3607B2;
+    font-size: 16px;
+}
+
+.especie-animal {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #FAD14152;
+    border-radius: 30px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.description-animal {
+    font-size: 16px;
+    color: #5D3607B2;
+    padding: 0px 24px 20px 24px;
+    flex-grow: 1;
+}
+
+.btn-animais {
+    margin-top: 60px;
+    background-color: #FAD141;
+    color: #5D3607;
+    padding: 16px 64px;
+    font-size: 22px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-animais:hover {
+    background-color: #cfa200;
+}
