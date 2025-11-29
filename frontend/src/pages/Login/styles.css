@@ -1,0 +1,106 @@
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content-login {
+    background-color: #FAD14175;
+    padding: 48px 64px;
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+    border-radius: 10px;
+}
+
+.logo-apoio-pet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.logo-apoio-pet .img-logo {
+    height: 80px;
+    width: auto;
+}
+
+.logo-apoio-pet .txt-logo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.form-login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.title-login {
+    font-size: 32px;
+    font-weight: 600;
+    color: #5D3607;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-login {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-login label {
+    font-size: 20px;
+    font-weight: 500;
+    color: #5D3607;
+}
+
+.input-login input {
+    background-color: #fff;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.input-login input::placeholder {
+    color: #a7a7a7;
+}
+
+.btn-login {
+    background-color: #FAD141;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #5D3607;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #c79c00;
+}
+
+.link-login {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #5D3607;
+}
+
+.link-login .link-cadastro {
+    font-weight: 600;
+    text-decoration: none;
+    color: #5D3607;
+}
+
+.link-login .link-cadastro:hover {
+    text-decoration: underline;
+}

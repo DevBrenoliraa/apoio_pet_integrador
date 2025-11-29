@@ -1,0 +1,102 @@
+#inicio {
+    position: relative;
+    min-height: 90vh;
+    margin-top: 99px;
+    padding: 110px 240px;
+    background-image: url('../../assets/img/imagem_fundo_inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#inicio::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.7); 
+    z-index: 1;
+}
+
+#inicio > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+.text-inicio {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.text-inicio .title-inicio {
+    font-size: 64px;
+    width: 35%;
+    font-weight: 700;
+    color: #404040;
+    margin-bottom: 32px;
+}
+
+.title-inicio span {
+    color: #FFCE21;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.subtitle-inicio {
+    font-size: 22px;
+    width: 40%;
+    color: #5D3607B2;
+    font-weight: 500;
+    margin-bottom: 52px;
+}
+
+.btns-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  flex-wrap: wrap; /* evita quebra feia em telas menores */
+}
+
+.btn-ajudar a,
+.btn-saiba-mais a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 28px;
+  border-radius: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* botão amarelo */
+.btn-ajudar a {
+  background-color: #FFCE21;
+  border: 2px solid #FFCE21;
+  color: #00000099;
+  justify-content: center;
+}
+
+/* botão com borda */
+.btn-saiba-mais a {
+  border: 2px solid #00000099;
+  color: #00000099;
+  justify-content: center;
+}
+
+/* ícones */
+.btn-ajudar img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* hover opcional */
+.btn-ajudar a:hover {
+  background-color: #e6b800;
+}
+
+.btn-saiba-mais a:hover {
+  background-color: #00000038;
+}

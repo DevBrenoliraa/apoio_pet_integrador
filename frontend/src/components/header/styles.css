@@ -1,0 +1,66 @@
+.container-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 240px;
+    background: #ffffff; 
+    z-index: 999;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo-apoio-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.logo-apoio-logo .img-apoio-logo {
+    height: 55px;
+    width: auto;
+}
+
+.logo-apoio-logo .text-apoio-logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-right: -650px;
+}
+
+.navbar .nav-link {
+    font-size: 22px;
+    font-weight: 400;
+    color: #5D3607;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #FAD141;
+    /* border-bottom: 2px solid #FAD141; */
+}
+
+.btn-login-header {
+    font-size: 22px;
+    font-weight: 400;
+    color: #5D3607;
+    background-color: #FAD141;
+    padding: 8px 26px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-login-header:hover {
+    background-color: #d8aa02;
+}

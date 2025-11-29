@@ -1,0 +1,100 @@
+/* ============================
+   RESET CSS COMPLETO PARA REACT + VITE
+   ============================ */
+
+/* Importando Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Box sizing e margin/padding padrão */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remover estilos padrão de listas */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remover estilos padrão de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset de imagens e mídia */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Tipografia consistente */
+html {
+    -webkit-text-size-adjust: 100%;
+    /* Evita zoom automático no iOS */
+    font-size: 100%;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    /* Agora todas as fontes são Poppins */
+    background-color: #fff;
+    color: #000;
+}
+
+/* Inputs e botões */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* Botões clicáveis */
+button {
+    cursor: pointer;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Cabeçalhos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Formulários */
+textarea {
+    resize: vertical;
+}
+
+/* Remove animações e transições para quem prefere reduzir movimento */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
